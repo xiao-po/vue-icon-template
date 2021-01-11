@@ -1,6 +1,8 @@
 ## VueIconPackageTemplate
 
-该项目是简单的 `Icon package project`， 可以简单生成自己的 `react-icon-component`. 你可以 `fork` 并且修改之后发布自己的 `icon-component package`
+该项目是简单的 `Icon package project`， 可以简单生成自己的 `react-icon-component`. 你可以 `fork` 并且修改之后发布自己的 `icon-component package`。
+
+**默认使用 `vue3` 进行构建**。
 
 注意: 当前项目发布后 `package` 并没有包括 `stylesheet`，仅有的 `stylesheet` 是用于 `preview` 的。
 
