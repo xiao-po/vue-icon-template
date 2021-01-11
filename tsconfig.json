@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./src/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "./types/",
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5",
+    "baseUrl": "./lib",
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
+    "jsx": "preserve",
+    "lib": ["dom", "es2015", "esnext"]
+  },
+  "exclude": ["node_modules", "example", "dist"],
+  "include": ["lib", "vue-env.d.ts"]
+}
